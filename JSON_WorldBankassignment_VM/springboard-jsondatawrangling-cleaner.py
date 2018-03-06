@@ -3,7 +3,7 @@ import json
 from pandas.io.json import json_normalize
 import matplotlib.pyplot as plt
 
-real_json_df = pd.read_json('/Users/vickimoore/Desktop/Springboard/data_wrangling_json/data/world_bank_projects.json') 
+real_json_df = pd.read_json('.../data/world_bank_projects.json') 
 print('=====BOOKKEEPING INFO=====\n')
 print(real_json_df.head()) 
 print(real_json_df.columns) 
@@ -22,7 +22,7 @@ print(country_count.head(10))
 
 #for major project theme top 10 list
 #make sure reading in string file, not dataframe for normalize
-real_json = json.load(open('/Users/vickimoore/Desktop/Springboard/data_wrangling_json/data/world_bank_projects.json'))
+real_json = json.load(open('.../data/world_bank_projects.json'))
 real_json = json_normalize(real_json, 'mjtheme_namecode', ['id']) #normalize this string file for these properties, enables meaningful entries for major codes
 
 #for filling in missing names to go with corresponding major theme codes
