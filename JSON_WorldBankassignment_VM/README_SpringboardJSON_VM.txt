@@ -89,12 +89,12 @@ International Development Association (IDA), respectively. While IBRD
 funds may have been directed toward rebuilding of Europe in the distant
 past, and IDA funds toward developing nations, in the data presented in
 this dataset this distinction is not necessarily the case. Also included
-in columns addressed by lines 45-50 is 'grantamt'; countries with
+in columns addressed by lines 45-50 is 'grantamt'; countries from the viewed subsets with
 recipients of IBRD or IDA funds can readily be seen as being distinct
 from those that receive grants. Examination of a sample project for
 Tunisia (http://projects.worldbank.org/P144674/?lang=en&tab=financial)
 on the World Bank website gives a clue that grant funds may come from
-elsewhere but be managed by either of these World Bank agencies. When
+elsewhere but be administered by either of these World Bank agencies. When
 examining the ranking produced by code output for the 15 highest-funded
 projects by country (from line 48), interestingly, Poland appears as the
 nation with the highest-funded project (over $1.3 billion US). This is
