@@ -96,7 +96,7 @@ Tunisia (http://projects.worldbank.org/P144674/?lang=en&tab=financial)
 on the World Bank website gives a clue that grant funds may come from
 elsewhere but be administered by either of these World Bank agencies. When
 examining the ranking produced by code output for the 15 highest-funded
-projects by country (from line 48), interestingly, Poland appears as the
+projects by country (from line 48), Poland appears as the
 nation with the highest-funded project (over $1.3 billion US). This is
 quite a bit larger than other funding amounts shown in that listing
 (next being Turkey at $800 million (US)), which also all consist of IBRD
