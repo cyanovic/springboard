@@ -36,7 +36,7 @@ IMPORTANT NOTES FOR ANYONE READING THIS AS OF 3/12/18 UPLOAD:
 ***I can either keep each file separate for analyses based on location, or combine them into a dataframe after I have developed the model and am testing it.
 '''
 
-cleveland_df = pd.read_csv('/Users/vickimoore/Desktop/Springboard/UCIheartdiseasedata/UCI_heart_newDL/Processed/processed_cleveland_data.csv', header=None, na_values = '?')
+cleveland_df = pd.read_csv('.../UCI_heart_newDL/Processed/processed_cleveland_data.csv', header=None, na_values = '?')
 cleveland_df.columns = ['age', 'sex', 'cp', 'trestbps', 'chol', 'fbs', 'restecg', 'thalach', 'exang', 'oldpeak', 'slope', 'ca', 'thal', 'num']
 cleveland_df['sex'] = cleveland_df['sex'].astype(float)
 cleveland_df['cp'] = cleveland_df['cp'].astype(float)
@@ -51,7 +51,7 @@ print(cleveland_df.head())
 print(cleveland_df.columns) 
 print(cleveland_df.info()) 
 
-hungarian_df = pd.read_csv('/Users/vickimoore/Desktop/Springboard/UCIheartdiseasedata/UCI_heart_newDL/Processed/reprocessed_hungarian_data.txt', sep=" ", header=None, na_values = '-9.0')
+hungarian_df = pd.read_csv('.../UCI_heart_newDL/Processed/reprocessed_hungarian_data.txt', sep=" ", header=None, na_values = '-9.0')
 hungarian_df.columns = ['age', 'sex', 'cp', 'trestbps', 'chol', 'fbs', 'restecg', 'thalach', 'exang', 'oldpeak', 'slope', 'ca', 'thal', 'num']
 hungarian_df['sex'] = hungarian_df['sex'].astype(float)
 hungarian_df['cp'] = hungarian_df['cp'].astype(float)
@@ -67,7 +67,7 @@ print(hungarian_df.head())
 print(hungarian_df.columns) 
 print(hungarian_df.info()) 
 
-long_beach_df = pd.read_csv('/Users/vickimoore/Desktop/Springboard/UCIheartdiseasedata/UCI_heart_newDL/Processed/processed_va_data.csv', header=None, na_values = '?')
+long_beach_df = pd.read_csv('.../UCI_heart_newDL/Processed/processed_va_data.csv', header=None, na_values = '?')
 long_beach_df.columns = ['age', 'sex', 'cp', 'trestbps', 'chol', 'fbs', 'restecg', 'thalach', 'exang', 'oldpeak', 'slope', 'ca', 'thal', 'num']
 long_beach_df['age'] = long_beach_df['age'].astype(float)
 long_beach_df['fbs'] = long_beach_df['fbs'].astype(float)
@@ -81,7 +81,7 @@ print(long_beach_df.columns)
 print(long_beach_df.info()) 
 
 '''
-new_data_df = pd.read_csv('/Users/vickimoore/Desktop/Springboard/UCIheartdiseasedata/UCI_heart_newDL/Processed/new_data.txt', sep=" ", header=None)
+new_data_df = pd.read_csv('.../UCI_heart_newDL/Processed/new_data.txt', sep=" ", header=None)
 new_data_df.columns = ['ccf', 'age', 'sex', 'painloc', 'painexer', 'relrest', 'pncaden', 'cp', 'trestbps', 'htn', 'chol', 'smoke', 'cigs', 'years', 'fbs', 
                        'dm', 'famhist', 'restecg', 'ekgmo', 'ekgday', 'ekgyr', 'dig', 'prop', 'nitr', 'pro', 'diuretic', 'proto', 'thaldur', 'thaltime', 'met',
                        'thalach', 'thalrest', 'tpeakbps', 'tpeakbpd', 'dummy', 'trestbpd', 'exang', 'xhypo', 'oldpeak', 'slope', 'rldv5', 'rldv5e', 'ca', 'restckm', 'exerckm',
