@@ -158,7 +158,7 @@ cleveland_df['sex'].plot(kind='hist', color='blue')
 hungarian_df['sex'].plot(kind='hist', color='red')
 long_beach_df['sex'].plot(kind='hist', color='purple')
 plt.show()
-#discrete and non-normal. mostly male. use mode.
+#discrete and non-normal. mostly male. use mode for right now, subject to change.
 sex_mode_cleveland = cleveland_df.sex.mode()
 cleveland_df['sex'] = cleveland_df.sex.fillna(sex_mode_cleveland[0])
 sex_mode_hungarian = hungarian_df.sex.mode()
