@@ -103,6 +103,21 @@ print(new_data_df.columns)
 print(new_data_df.info()) 
 #The new_data file has 90 columns instead of 76 or 14, so I have no idea what is in it. Leaving in here though in case there's something to work with later.
 '''
+
+'''
+***The next step for cleaning up the data includes looking at each variable to get a sense of distributions.
+***I am looking at these separately for each population so I can note any location-based differences before combining into one dataframe.
+***Also from these distributions I am determining whether mode or median is the more appropriate value for each to use for missing values.
+***I am assigning these currently per-population prior to combining into a dataframe because there are in some cases differences by population 
+***that can be readily seen in the separate histograms for each location.
+***If an erroneous data point stands out (as is the case for 'ca' with Hungarian data), I am examining data to figure out where the error is.
+***In that case it was clearly meant to be missing data, but the '9.0' was missing its negative sign to identify that.
+***It was also necessary to add a location column to each, which I filled in up above, in order to be able to identify the source location for each entry.
+***After preparing each individual dataframe to be ready to combine into one, I combined them.
+***At that point I assigned data types more accurately. Categories or booleans I could identify as such, but for now kept as integers.
+***I also show that missing values no longer are present, except for the num column, which holds the target variable. 
+***I also show distributions again in histograms, this time sampling matplotlib colors for now.
+'''
 #___________________________________________ca distribution and fix na in hungarian, switch out NaN's_______________________________________________________________________________________________________
 cleveland_df['ca'].plot(kind='hist', color='blue')
 plt.show()
