@@ -6,7 +6,7 @@ start with either of these, as this is the actual report.
 or machine learning code specific to analyses of the Cleveland subset (Capstone1_MLCleveland_VM.ipynb). I 
 worked on different aspects of the report in different portions of the Jupyter Notebooks, so the order is 
 not straightforward or corresponding to the order in which figures/tables are presented in the report, but 
-in each notebook I labeled with a header above cells that related to Figures/Tables appearing in the report. 
+in each notebook I labeled with a header above cells that related to Figures/Tables appearing in the report.
 Most unnecessary code has been cleared from both files, but some content that is not referred to in the 
 report may remain in them. 
 
