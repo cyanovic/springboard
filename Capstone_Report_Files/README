@@ -1,14 +1,15 @@
--In the Capstone_Report_Files folder, the actual report is the Capstone1Report.docx file or alternatively 
-Capstone1Report.pdf (format may be better retained, though hyperlinks may not work in the PDF). Please 
-start with either of these, as this is the actual report.
+-In the Capstone_Report_Files folder, the actual report is the Capstone1Report.docx file or 
+alternatively Capstone1Report.pdf (format may be better retained, though hyperlinks may not 
+work in the PDF). Please start with either of these, as this is the actual report.
 -The HeartDiseasePPT_VM.pdf file is a slide deck to accompany the report. 
--The two ipynb files are for the bulk of the code accompanying this report (Capstone1_Main-AllLoc_VM.ipynb) 
-or machine learning code specific to analyses of the Cleveland subset (Capstone1_MLCleveland_VM.ipynb). I 
-worked on different aspects of the report in different portions of the Jupyter Notebooks, so the order is 
-not straightforward or corresponding to the order in which figures/tables are presented in the report, but 
-in each notebook I labeled with a header above cells that related to Figures/Tables appearing in the 
-report. Most unnecessary code has been cleared from both files, but some content that is not referred to 
-in the report may remain in them. 
+-The two ipynb files are for the bulk of the code accompanying this report 
+(Capstone1_Main-AllLoc_VM-SMOTEonMulti.ipynb) or machine learning code specific to analyses 
+of the Cleveland subset (Capstone1_MLCleveland_VM-SMOTEonMulti.ipynb). I worked on different 
+aspects of the report in different portions of the Jupyter Notebooks, so the order is not 
+straightforward or corresponding to the order in which figures/tables are presented in the 
+report, but in each notebook I labeled with a header above cells that related to Figures/Tables 
+appearing in the report. Most unnecessary code has been cleared from both files, but some 
+content that is not referred to in the report may remain in them. 
 -UPDATE 06/14/18: multiclass target variable tests, due to their imbalanced class nature, have 
 been treated with imblearn SMOTE, with new results showing higher accuracy for most classifiers.
 
