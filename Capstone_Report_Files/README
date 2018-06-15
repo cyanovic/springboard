@@ -10,7 +10,8 @@ straightforward or corresponding to the order in which figures/tables are presen
 report, but in each notebook I labeled with a header above cells that related to Figures/Tables 
 appearing in the report. Most unnecessary code has been cleared from both files, but some 
 content that is not referred to in the report may remain in them. 
--UPDATE 06/14/18: multiclass target variable tests, due to their imbalanced class nature, have 
+-UPDATES 06/14-15/18: multiclass target variable tests, due to their imbalanced class nature, have 
 been treated with imblearn SMOTE, with new results showing higher accuracy for most classifiers.
+Also added a perspective section at the end of the Capstone1Report .docx and .pdf files.
 
 -V
