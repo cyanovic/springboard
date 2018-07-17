@@ -1,10 +1,10 @@
 This folder contains my Capstone 2 Report and associated documents.
-The report itself is the Capstone2_Report_VM in both PDF and Word .docx forms.
+The report itself is the Capstone2_Report_VM file in both PDF and Word .docx forms.
 The slide deck is Capstone2_VM.pdf.
-The Jupyter Notebook files are as following:
--ThoracicSurgery_NoPreweightingJustSWinSplit.ipynb is the main one,
+The Jupyter Notebook files are as follows:
+-ThoracicSurgery_NoPreweightingJustSWinSplit.ipynb is the main one to look at,
   with nearly all the analyses included in it.
 -ThoracicSurgery-UpsampleMinorityAfterTrain-Tidy.ipynb, and
 -ThoracicSurgery-SmoteAfterTrain.ipynb both contain some content used
   in the earlier stages of the report before I chose to move forward with the
-  approach in the "...NoPreweighting..." one mentioned above.
+  approach in "ThoracicSurgery-NoPreweightingJustSWinSplit.ipynb".
