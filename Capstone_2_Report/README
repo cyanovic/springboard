@@ -1,6 +1,6 @@
 This folder contains my Capstone 2 Report and associated documents.
 The report itself is the Capstone2_Report_VM file in both PDF and Word .docx forms.
-The slide deck is Capstone2_VM.pdf.
+The slide deck is Capstone2_VM.pptx (or alternatively Capstone2_VM.pdf).
 The Jupyter Notebook files are as follows:
 -ThoracicSurgery_NoPreweightingJustSWinSplit.ipynb is the main one to look at,
   with nearly all the analyses included in it.
